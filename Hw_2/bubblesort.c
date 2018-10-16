@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include "bubblesort.h"
 
-//#ifdef BS_Verbose
-   //to my understanding, BS_Verboseexecute the following steps whenever it is called
-  // printf("Compares completed: %d ", compares);
-   //printf("Swaps completed: %d", swaps);
-//#endif 
 
 int bubbleSort(int arr[], int size, int *ncompares_ptr, int *nswaps_ptr){
 //create an array to hold in the values
@@ -27,16 +22,6 @@ int bubbleSort(int arr[], int size, int *ncompares_ptr, int *nswaps_ptr){
    *ncompares_ptr = 0;
    *nswaps_ptr = 0;
 
-//   printf("Hello! This is the bubble sorting machine.\n Please enter six whole numbers for us to sort!\n");
-  // printf("(Example: 4 5 6 7 2 0): ");
-   
-//scan in the values
-   //for (int i=0; i < 6; i++){
-     // scanf("%d", &values[i]);
-//      printf("%d", values[i]);
-   //}
-   
-  // bubblesort(values, 6, nswaps_ptr, ncompares_ptr); 
 // start at index n of array
    do{
       #ifdef BS_Verbose
@@ -83,14 +68,7 @@ int bubbleSort(int arr[], int size, int *ncompares_ptr, int *nswaps_ptr){
    for(int i = 0; i < size; i++){
       printf("%d ", arr[i]);
    }
-//compare index n with index n of array
-//if the element n is bigger than n+1, then switch, and mark "unsorted"
-//
-//move onto next element in array
-//repeat 
 
-//go to beginning of the array 
-//
    printf("\n");
    return 0;
 }

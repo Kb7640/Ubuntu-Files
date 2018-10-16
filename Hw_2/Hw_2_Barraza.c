@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include "bubblesort.c"
-//#include "bubblesort.h" 
+#include "selectionsort.c" 
 
 #define size 16
 int main(){
@@ -39,18 +39,36 @@ int main(){
 //      printf("THere were %d compares perfomred in this bubble sort. \n", compares);
 //      swapRecord[0] = swaps;
 //     compareRecord[0] = compares;
+ 
+   selectionSort(ascendvals, size, ncompares_ptr, nswaps_ptr);
+      printf("There were %d swaps performed in this selection sort. \n", swaps);
+      printf("THere were %d compares performed in this selection sort. \n", compares);
+      swapRecord[1] = swaps;
+      compareRecord[1] = compares;
 
 //   bubbleSort(descendvals, size, ncompares_ptr, nswaps_ptr);
 //      printf("There were %d swaps performed in this bubble sort. \n", swaps);
 //      printf("THere were %d compares perfomred in this bubble sort. \n", compares);
 //      swapRecord[3] = swaps;
 //      compareRecord[3] = compares;
+
+//     selectionSort(descendvals, size, ncompares_ptr, nswaps_ptr);
+//        printf("There were %d swaps performed in this selection sort. \n", swaps);
+//        printf("THere were %d compares performed in this selection sort. \n", compares);
+//        swapRecord[4] = swaps;
+ //       compareRecord[4] = compares;
+
+//   bubbleSort(randomvals, size, ncompares_ptr, nswaps_ptr);
+//      printf("There were %d swaps performed in this bubble sort. \n", swaps);
+//     printf("THere were %d compares perfomred in this bubble sort. \n", compares);
+//      swapRecord[6] = swaps;
+//      compareRecord[6] = compares;
  
-   bubbleSort(randomvals, size, ncompares_ptr, nswaps_ptr);
-      printf("There were %d swaps performed in this bubble sort. \n", swaps);
-      printf("THere were %d compares perfomred in this bubble sort. \n", compares);
-      swapRecord[3] = swaps;
-      compareRecord[3] = compares;
+//   selectionSort(randomvals, size, ncompares_ptr, nswaps_ptr);
+ //     printf("There were %d swaps performed in this selection sort. \n", swaps);
+ //     printf("THere were %d compares performed in this selection sort. \n", compares);
+ //     swapRecord[7] = swaps;
+ //     compareRecord[7] = compares;
   
    return 0;
 }
