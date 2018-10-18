@@ -81,7 +81,6 @@ int main(){
       printf("THere were %d compares performed in this selection sort. \n", compares);
       printf("Total # of steps: %d\n", swaps+compares);
 
-   printf("Random value algorithms: \n");
     insertionSort(randomvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this insertion sort. \n", swaps);
      printf("THere were %d compares performed in this insertion sort. \n", compares);

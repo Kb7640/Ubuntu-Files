@@ -1,0 +1,177 @@
+Hello! This is the sorting machine. We are going to run three different algorithms on three different arrays.
+These arrays containt the numbers 0 to 15 in ascending, descending and in random order.
+These arrays will be placed through three separate sorting algorithms: Bubble Sort, Selection Sort, and Insertion Sort. 
+
+//////////////////////////////////////
+
+Ascending value algorithms: 
+
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this bubble sort. 
+THere were 15 compares perfomred in this bubble sort. 
+Total # of steps: 15
+This is the size we are working with: 16
+---Thinking ^_^ ---
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this selection sort. 
+THere were 120 compares performed in this selection sort. 
+Total # of steps: 120
+Items compared: [0, 1] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [1, 2] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [2, 3] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [3, 4] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [4, 5] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [5, 6] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [6, 7] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [7, 8] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [8, 9] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [9, 10] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [10, 11] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [11, 12] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [12, 13] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [13, 14] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [14, 15] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Final array: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this insertion sort. 
+THere were 135 compares performed in this insertion sort. 
+Total # of steps: 135
+
+//////////////////////////////////////
+
+Descending value algorithms: 
+
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 120 swaps performed in this bubble sort. 
+THere were 240 compares perfomred in this bubble sort. 
+Total # of steps: 360
+This is the size we are working with: 16
+---Thinking ^_^ ---
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this selection sort. 
+THere were 120 compares performed in this selection sort. 
+Total # of steps: 120
+Items compared: [0, 1] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [1, 2] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [2, 3] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [3, 4] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [4, 5] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [5, 6] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [6, 7] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [7, 8] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [8, 9] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [9, 10] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [10, 11] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [11, 12] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [12, 13] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [13, 14] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [14, 15] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Final array: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this insertion sort. 
+THere were 135 compares performed in this insertion sort. 
+Total # of steps: 135
+
+//////////////////////////////////////
+
+Random value algorithms: 
+
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 33 swaps performed in this bubble sort. 
+THere were 135 compares perfomred in this bubble sort. 
+Total # of steps: 168
+This is the size we are working with: 16
+---Thinking ^_^ ---
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this selection sort. 
+THere were 120 compares performed in this selection sort. 
+Total # of steps: 120
+Items compared: [0, 1] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [1, 2] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [2, 3] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [3, 4] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [4, 5] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [5, 6] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [6, 7] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [7, 8] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [8, 9] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [9, 10] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [10, 11] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [11, 12] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [12, 13] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [13, 14] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Items compared: [14, 15] not swapped.
+Current Array: [ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ]
+Final array: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 0 swaps performed in this insertion sort. 
+THere were 135 compares performed in this insertion sort. 
+Total # of steps: 135
