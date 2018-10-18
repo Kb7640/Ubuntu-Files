@@ -54,3 +54,39 @@ int insertionSort(int arr[], int size, int * ncompares_ptr, int *nswaps_ptr){
    printf("\n");
    return 0;
 }
+
+/*int insertionSort(int arr[], int size, int * ncompares_ptr, int *nswaps_ptr){
+   int index = 0; 
+   int tempVal = 0;
+   int compareTo = 0; 
+   //if the number is bigger than the next one, you move on. If it's not, you save the next one and compare it to all the rest before. 
+   //if a number is smaller than all of the ones before it, you move it until it's bigger than the one before it.
+   printf("in insertionsort.\n");
+   while(index < size){
+      int compareTo = index +1;
+      int tempVal = arr[compareTo];
+      do{
+         if(index > arr[compareTo]){
+            printf("arr[%d] = %d is bigger than arr[%d] = %d\n.", index, arr[index], index+1, arr[index+1]);
+            tempVal = arr[compareTo];
+            arr[compareTo] = arr[index];
+            compareTo--;
+         } 
+        
+    
+      }while((arr[compareTo] > tempVal)||compareTo !=0);//keep the loop going while the number is bigger than the previous ones, or unless we're at the end
+      index++;
+      arr[compareTo] = tempVal;
+   }
+   
+ 
+  printf("Out of do-while\n");
+   printf("We are at index # %d, arr[%d] = %d.\n", index, index, arr[index]);
+   printf("Final array: ");
+   for(int i = 0; i < size; i++){
+      printf(" %d", arr[i]);
+   }
+
+   printf("\n");
+   return 0;
+}*/

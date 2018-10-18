@@ -32,84 +32,60 @@ int main(){
    printf("Hello! This is the sorting machine. We are going to run three different algorithms on three different arrays.\n");
    printf("These arrays containt the numbers 0 to 15 in ascending, descending and in random order.\n");
    printf("These arrays will be placed through three separate sorting algorithms: Bubble Sort, Selection Sort, and Insertion Sort. \n");
-
+   printf("\n//////////////////////////////////////\n\n");
+   printf("Ascending value algorithms: \n");
    //Running the algorithms on the ascending array 
    bubbleSort(ascendvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this bubble sort. \n", swaps);
      printf("THere were %d compares perfomred in this bubble sort. \n", compares);
- /*     swapRecord[0] = *nswaps_ptr;
-     compareRecord[0] = *ncompares_ptr;
- */
+      printf("Total # of steps: %d\n", swaps+compares);
+
    selectionSort(ascendvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this selection sort. \n", swaps);
       printf("THere were %d compares performed in this selection sort. \n", compares);
-/*      swapRecord[1] = *nswaps_ptr;
-      compareRecord[1] = *ncompares_ptr;
- */
-    insertionSort(ascendvals, size, ncompares_ptr, nswaps_ptr);
+      printf("Total # of steps: %d\n", swaps+compares);
+ 
+   insertionSort(ascendvals, size, ncompares_ptr, nswaps_ptr);
      printf("There were %d swaps performed in this insertion sort. \n", swaps);
-      printf("THere were %d compares performed in this insertion sort. \n", compares);
-/*       swapRecord[2] = *nswaps_ptr;
-  */     compareRecord[2] = *ncompares_ptr;
+     printf("THere were %d compares performed in this insertion sort. \n", compares);
+      printf("Total # of steps: %d\n", swaps+compares);
 
+    printf("\n//////////////////////////////////////\n\n");
+   printf("Descending value algorithms: \n");
 
    bubbleSort(descendvals, size, ncompares_ptr, nswaps_ptr);
     printf("There were %d swaps performed in this bubble sort. \n", swaps);
       printf("THere were %d compares perfomred in this bubble sort. \n", compares);
-/*      swapRecord[3] = *nswaps_ptr;
-      compareRecord[3] = *ncompares_ptr;
-*/
+      printf("Total # of steps: %d\n", swaps+compares);
+
      selectionSort(descendvals, size, ncompares_ptr, nswaps_ptr);
         printf("There were %d swaps performed in this selection sort. \n", swaps);
         printf("THere were %d compares performed in this selection sort. \n", compares);
-/*        swapRecord[4] = *nswaps_ptr;
-        compareRecord[4] = *ncompares_ptr;
-*/  
-  insertionSort(descendvals, size, ncompares_ptr, nswaps_ptr);
+      printf("Total # of steps: %d\n", swaps+compares);
+ 
+ insertionSort(descendvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this insertion sort. \n", swaps);
       printf("THere were %d compares performed in this insertion sort. \n", compares);
-/*      swapRecord[5] = *nswaps_ptr;
-      compareRecord[5] = *ncompares_ptr;
-*/
+      printf("Total # of steps: %d\n", swaps+compares);
 
-   bubbleSort(randomvals, size, ncompares_ptr, nswaps_ptr);
+  printf("\n//////////////////////////////////////\n\n");
+   printf("Random value algorithms: \n");
+
+  bubbleSort(randomvals, size, ncompares_ptr, nswaps_ptr);
      printf("There were %d swaps performed in this bubble sort. \n", swaps);
     printf("THere were %d compares perfomred in this bubble sort. \n", compares);
-/*     swapRecord[6] = *nswaps_ptr;
-      compareRecord[6] = *ncompares_ptr;
- */
+      printf("Total # of steps: %d\n", swaps+compares);
+
    selectionSort(randomvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this selection sort. \n", swaps);
       printf("THere were %d compares performed in this selection sort. \n", compares);
-/*      swapRecord[7] = *nswaps_ptr;
-      compareRecord[7] = *ncompares_ptr;
-*/
+      printf("Total # of steps: %d\n", swaps+compares);
+
+   printf("Random value algorithms: \n");
     insertionSort(randomvals, size, ncompares_ptr, nswaps_ptr);
       printf("There were %d swaps performed in this insertion sort. \n", swaps);
      printf("THere were %d compares performed in this insertion sort. \n", compares);
-/*      swapRecord[8] =*nswaps_ptr;
-      compareRecord[8] = *ncompares_ptr;
-*/
-
-/*printf("This is the summary of the sorting algorithms!\n");
-printf("An ascending list: \n");
-
-   printf("   Bubble: swaps--%d, compares-- %d\n", *swaps[0], *compares[0] );
-   printf("   Selection: swaps--%d, compares-- %d\n", *swaps[1],* compares[1] );
-  printf("   insertion: swaps--%d, compares-- %d\n", *swaps[2], *compares[2] );
-
-printf("An descending list: \n");
-
-   printf("   Bubble: swaps--%d, compares-- %d\n", swaps[3], compares[3] );
-   printf("   Selection: swaps--%d, compares-- %d\n", swaps[4], compares[4] );
-  printf("   insertion: swaps--%d, compares-- %d\n", swaps[5], compares[5] );
-printf("A random list: \n");
-
-   printf("   Bubble: swaps--%d, compares-- %d\n", swaps[6], compares[6] );
-   printf("   Selection: swaps--%d, compares-- %d\n", swaps[7], compares[7] );
-  printf("   insertion: swaps--%d, compares-- %d\n", swaps[8], compares[8] );
-
-*/
+      printf("Total # of steps: %d\n", swaps+compares);
 
    return 0;
 }

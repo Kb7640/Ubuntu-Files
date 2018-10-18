@@ -1,189 +1,7 @@
 Hello! This is the sorting machine. We are going to run three different algorithms on three different arrays.
 These arrays containt the numbers 0 to 15 in ascending, descending and in random order.
 These arrays will be placed through three separate sorting algorithms: Bubble Sort, Selection Sort, and Insertion Sort. 
-BS_Verbose is defined.
-Current Array Status: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,2], => not swapped [1,2]
-Items compared: [2,3], => not swapped [2,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-
----Thinking ^_^ -----
-
-This is your newly sorted list!: 
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-There were 0 swaps performed in this bubble sort. 
-THere were 15 compares perfomred in this bubble sort. 
-This is the size we are working with: 16The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
- => not swapped [0, 0].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
- => not swapped [1, 1].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
- => not swapped [2, 2].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
- => not swapped [3, 3].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
- => not swapped [4, 4].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
- => not swapped [5, 5].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
- => not swapped [6, 6].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
- => not swapped [7, 7].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
- => not swapped [8, 8].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
- => not swapped [9, 9].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
- => not swapped [10, 10].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
- => not swapped [11, 11].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [12, 12].
-Items compared: [12, 12].
-Items compared: [12, 12].
- => not swapped [12, 12].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [13, 13].
-Items compared: [13, 13].
- => not swapped [13, 13].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [14, 14].
- => not swapped [14, 14].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
- => not swapped [15, 15].
-
----Thinking ^_^ ---
-
-This is your newly sorted list!: 
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-There were 0 swaps performed in this selection sort. 
-THere were 120 compares performed in this selection sort. 
+Ascending value algorithms: 
 The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
 Items compared: [0, 1]. 
 The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
@@ -223,461 +41,124 @@ This is your newly sorted list!:
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
 There were 0 swaps performed in this insertion sort. 
 THere were 16 compares performed in this insertion sort. 
-BS_Verbose is defined.
-Current Array Status: 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 
-Items compared: [15,14], => swapped [14,15]
-Items compared: [15,13], => swapped [13,15]
-Items compared: [15,12], => swapped [12,15]
-Items compared: [15,11], => swapped [11,15]
-Items compared: [15,10], => swapped [10,15]
-Items compared: [15,9], => swapped [9,15]
-Items compared: [15,8], => swapped [8,15]
-Items compared: [15,7], => swapped [7,15]
-Items compared: [15,6], => swapped [6,15]
-Items compared: [15,5], => swapped [5,15]
-Items compared: [15,4], => swapped [4,15]
-Items compared: [15,3], => swapped [3,15]
-Items compared: [15,2], => swapped [2,15]
-Items compared: [15,1], => swapped [1,15]
-Items compared: [15,0], => swapped [0,15]
-Current Array Status: 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 15 
-Items compared: [14,13], => swapped [13,14]
-Items compared: [14,12], => swapped [12,14]
-Items compared: [14,11], => swapped [11,14]
-Items compared: [14,10], => swapped [10,14]
-Items compared: [14,9], => swapped [9,14]
-Items compared: [14,8], => swapped [8,14]
-Items compared: [14,7], => swapped [7,14]
-Items compared: [14,6], => swapped [6,14]
-Items compared: [14,5], => swapped [5,14]
-Items compared: [14,4], => swapped [4,14]
-Items compared: [14,3], => swapped [3,14]
-Items compared: [14,2], => swapped [2,14]
-Items compared: [14,1], => swapped [1,14]
-Items compared: [14,0], => swapped [0,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 13 12 11 10 9 8 7 6 5 4 3 2 1 0 14 15 
-Items compared: [13,12], => swapped [12,13]
-Items compared: [13,11], => swapped [11,13]
-Items compared: [13,10], => swapped [10,13]
-Items compared: [13,9], => swapped [9,13]
-Items compared: [13,8], => swapped [8,13]
-Items compared: [13,7], => swapped [7,13]
-Items compared: [13,6], => swapped [6,13]
-Items compared: [13,5], => swapped [5,13]
-Items compared: [13,4], => swapped [4,13]
-Items compared: [13,3], => swapped [3,13]
-Items compared: [13,2], => swapped [2,13]
-Items compared: [13,1], => swapped [1,13]
-Items compared: [13,0], => swapped [0,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 12 11 10 9 8 7 6 5 4 3 2 1 0 13 14 15 
-Items compared: [12,11], => swapped [11,12]
-Items compared: [12,10], => swapped [10,12]
-Items compared: [12,9], => swapped [9,12]
-Items compared: [12,8], => swapped [8,12]
-Items compared: [12,7], => swapped [7,12]
-Items compared: [12,6], => swapped [6,12]
-Items compared: [12,5], => swapped [5,12]
-Items compared: [12,4], => swapped [4,12]
-Items compared: [12,3], => swapped [3,12]
-Items compared: [12,2], => swapped [2,12]
-Items compared: [12,1], => swapped [1,12]
-Items compared: [12,0], => swapped [0,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 11 10 9 8 7 6 5 4 3 2 1 0 12 13 14 15 
-Items compared: [11,10], => swapped [10,11]
-Items compared: [11,9], => swapped [9,11]
-Items compared: [11,8], => swapped [8,11]
-Items compared: [11,7], => swapped [7,11]
-Items compared: [11,6], => swapped [6,11]
-Items compared: [11,5], => swapped [5,11]
-Items compared: [11,4], => swapped [4,11]
-Items compared: [11,3], => swapped [3,11]
-Items compared: [11,2], => swapped [2,11]
-Items compared: [11,1], => swapped [1,11]
-Items compared: [11,0], => swapped [0,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 10 9 8 7 6 5 4 3 2 1 0 11 12 13 14 15 
-Items compared: [10,9], => swapped [9,10]
-Items compared: [10,8], => swapped [8,10]
-Items compared: [10,7], => swapped [7,10]
-Items compared: [10,6], => swapped [6,10]
-Items compared: [10,5], => swapped [5,10]
-Items compared: [10,4], => swapped [4,10]
-Items compared: [10,3], => swapped [3,10]
-Items compared: [10,2], => swapped [2,10]
-Items compared: [10,1], => swapped [1,10]
-Items compared: [10,0], => swapped [0,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 9 8 7 6 5 4 3 2 1 0 10 11 12 13 14 15 
-Items compared: [9,8], => swapped [8,9]
-Items compared: [9,7], => swapped [7,9]
-Items compared: [9,6], => swapped [6,9]
-Items compared: [9,5], => swapped [5,9]
-Items compared: [9,4], => swapped [4,9]
-Items compared: [9,3], => swapped [3,9]
-Items compared: [9,2], => swapped [2,9]
-Items compared: [9,1], => swapped [1,9]
-Items compared: [9,0], => swapped [0,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 8 7 6 5 4 3 2 1 0 9 10 11 12 13 14 15 
-Items compared: [8,7], => swapped [7,8]
-Items compared: [8,6], => swapped [6,8]
-Items compared: [8,5], => swapped [5,8]
-Items compared: [8,4], => swapped [4,8]
-Items compared: [8,3], => swapped [3,8]
-Items compared: [8,2], => swapped [2,8]
-Items compared: [8,1], => swapped [1,8]
-Items compared: [8,0], => swapped [0,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 7 6 5 4 3 2 1 0 8 9 10 11 12 13 14 15 
-Items compared: [7,6], => swapped [6,7]
-Items compared: [7,5], => swapped [5,7]
-Items compared: [7,4], => swapped [4,7]
-Items compared: [7,3], => swapped [3,7]
-Items compared: [7,2], => swapped [2,7]
-Items compared: [7,1], => swapped [1,7]
-Items compared: [7,0], => swapped [0,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 6 5 4 3 2 1 0 7 8 9 10 11 12 13 14 15 
-Items compared: [6,5], => swapped [5,6]
-Items compared: [6,4], => swapped [4,6]
-Items compared: [6,3], => swapped [3,6]
-Items compared: [6,2], => swapped [2,6]
-Items compared: [6,1], => swapped [1,6]
-Items compared: [6,0], => swapped [0,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 5 4 3 2 1 0 6 7 8 9 10 11 12 13 14 15 
-Items compared: [5,4], => swapped [4,5]
-Items compared: [5,3], => swapped [3,5]
-Items compared: [5,2], => swapped [2,5]
-Items compared: [5,1], => swapped [1,5]
-Items compared: [5,0], => swapped [0,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 4 3 2 1 0 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [4,3], => swapped [3,4]
-Items compared: [4,2], => swapped [2,4]
-Items compared: [4,1], => swapped [1,4]
-Items compared: [4,0], => swapped [0,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 3 2 1 0 4 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [3,2], => swapped [2,3]
-Items compared: [3,1], => swapped [1,3]
-Items compared: [3,0], => swapped [0,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 2 1 0 3 4 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [2,1], => swapped [1,2]
-Items compared: [2,0], => swapped [0,2]
-Items compared: [2,3], => not swapped [2,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 1 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [1,0], => swapped [0,1]
-Items compared: [1,2], => not swapped [1,2]
-Items compared: [2,3], => not swapped [2,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Current Array Status: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,2], => not swapped [1,2]
-Items compared: [2,3], => not swapped [2,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-
----Thinking ^_^ -----
-
-This is your newly sorted list!: 
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-There were 120 swaps performed in this bubble sort. 
-THere were 240 compares perfomred in this bubble sort. 
-This is the size we are working with: 16The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
- => not swapped [0, 0].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
- => not swapped [1, 1].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
-Items compared: [2, 2].
- => not swapped [2, 2].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
- => not swapped [3, 3].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
- => not swapped [4, 4].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
- => not swapped [5, 5].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
- => not swapped [6, 6].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
- => not swapped [7, 7].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
- => not swapped [8, 8].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
- => not swapped [9, 9].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
- => not swapped [10, 10].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
- => not swapped [11, 11].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [12, 12].
-Items compared: [12, 12].
-Items compared: [12, 12].
- => not swapped [12, 12].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [13, 13].
-Items compared: [13, 13].
- => not swapped [13, 13].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [14, 14].
- => not swapped [14, 14].
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
- => not swapped [15, 15].
-
----Thinking ^_^ ---
-
-This is your newly sorted list!: 
-0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
-There were 0 swaps performed in this selection sort. 
-THere were 120 compares performed in this selection sort. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [0, 1]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [1, 2]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [2, 3]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [3, 4]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [4, 5]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [5, 6]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [6, 7]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [7, 8]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [8, 9]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [9, 10]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [10, 11]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [11, 12]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [12, 13]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [13, 14]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
-Items compared: [14, 15]. 
-The current array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, ]
+Descending value algorithms: 
+The current array: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [14, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [15, 15, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [13, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items compared: [15, 15]. 
+The current array: [14, 15, 15, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [12, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items compared: [15, 15]. 
+The current array: [13, 14, 15, 15, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [11, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items compared: [15, 15]. 
+The current array: [12, 13, 14, 15, 15, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [10, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items compared: [15, 15]. 
+The current array: [11, 12, 13, 14, 15, 15, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [9, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items compared: [15, 15]. 
+The current array: [10, 11, 12, 13, 14, 15, 15, 8, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [8, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items compared: [15, 15]. 
+The current array: [9, 10, 11, 12, 13, 14, 15, 15, 7, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [7, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items compared: [15, 15]. 
+The current array: [8, 9, 10, 11, 12, 13, 14, 15, 15, 6, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [6, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items compared: [15, 15]. 
+The current array: [7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 5, 4, 3, 2, 1, 0, ]
+Items shifted: [5, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items compared: [15, 15]. 
+The current array: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 4, 3, 2, 1, 0, ]
+Items shifted: [4, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items shifted: [6, 5]
+Items compared: [15, 15]. 
+The current array: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 3, 2, 1, 0, ]
+Items shifted: [3, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items shifted: [6, 5]
+Items shifted: [5, 4]
+Items compared: [15, 15]. 
+The current array: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 2, 1, 0, ]
 Items shifted: [2, 15]
+Items shifted: [15, 15]
 Items shifted: [15, 14]
 Items shifted: [14, 13]
 Items shifted: [13, 12]
@@ -690,373 +171,158 @@ Items shifted: [7, 6]
 Items shifted: [6, 5]
 Items shifted: [5, 4]
 Items shifted: [4, 3]
-Items compared: [14, 15]. 
-
----Thinking ^_^ -----
-
-This is your newly sorted list!: 
-0 1 2 2 3 4 5 6 7 8 9 10 11 12 13 14 
-There were 13 swaps performed in this insertion sort. 
-THere were 16 compares performed in this insertion sort. 
-BS_Verbose is defined.
-Current Array Status: 15 8 1 0 3 11 12 4 6 13 7 14 10 5 9 15 
-Items compared: [15,8], => swapped [8,15]
-Items compared: [15,1], => swapped [1,15]
-Items compared: [15,0], => swapped [0,15]
-Items compared: [15,3], => swapped [3,15]
-Items compared: [15,11], => swapped [11,15]
-Items compared: [15,12], => swapped [12,15]
-Items compared: [15,4], => swapped [4,15]
-Items compared: [15,6], => swapped [6,15]
-Items compared: [15,13], => swapped [13,15]
-Items compared: [15,7], => swapped [7,15]
-Items compared: [15,14], => swapped [14,15]
-Items compared: [15,10], => swapped [10,15]
-Items compared: [15,5], => swapped [5,15]
-Items compared: [15,9], => swapped [9,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 8 1 0 3 11 12 4 6 13 7 14 10 5 9 15 15 
-Items compared: [8,1], => swapped [1,8]
-Items compared: [8,0], => swapped [0,8]
-Items compared: [8,3], => swapped [3,8]
-Items compared: [8,11], => not swapped [8,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,4], => swapped [4,12]
-Items compared: [12,6], => swapped [6,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,7], => swapped [7,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,10], => swapped [10,14]
-Items compared: [14,5], => swapped [5,14]
-Items compared: [14,9], => swapped [9,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 1 0 3 8 11 4 6 12 7 13 10 5 9 14 15 15 
-Items compared: [1,0], => swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,8], => not swapped [3,8]
-Items compared: [8,11], => not swapped [8,11]
-Items compared: [11,4], => swapped [4,11]
-Items compared: [11,6], => swapped [6,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,7], => swapped [7,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,10], => swapped [10,13]
-Items compared: [13,5], => swapped [5,13]
-Items compared: [13,9], => swapped [9,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 8 4 6 11 7 12 10 5 9 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,8], => not swapped [3,8]
-Items compared: [8,4], => swapped [4,8]
-Items compared: [8,6], => swapped [6,8]
-Items compared: [8,11], => not swapped [8,11]
-Items compared: [11,7], => swapped [7,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,10], => swapped [10,12]
-Items compared: [12,5], => swapped [5,12]
-Items compared: [12,9], => swapped [9,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 6 8 7 11 10 5 9 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,6], => not swapped [4,6]
-Items compared: [6,8], => not swapped [6,8]
-Items compared: [8,7], => swapped [7,8]
-Items compared: [8,11], => not swapped [8,11]
-Items compared: [11,10], => swapped [10,11]
-Items compared: [11,5], => swapped [5,11]
-Items compared: [11,9], => swapped [9,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 6 7 8 10 5 9 11 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,6], => not swapped [4,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,10], => not swapped [8,10]
-Items compared: [10,5], => swapped [5,10]
-Items compared: [10,9], => swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 6 7 8 5 9 10 11 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,6], => not swapped [4,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,5], => swapped [5,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 6 7 5 8 9 10 11 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,6], => not swapped [4,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,5], => swapped [5,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 6 5 7 8 9 10 11 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,6], => not swapped [4,6]
-Items compared: [6,5], => swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-Current Array Status: 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 15 
-Items compared: [0,1], => not swapped [0,1]
-Items compared: [1,3], => not swapped [1,3]
-Items compared: [3,4], => not swapped [3,4]
-Items compared: [4,5], => not swapped [4,5]
-Items compared: [5,6], => not swapped [5,6]
-Items compared: [6,7], => not swapped [6,7]
-Items compared: [7,8], => not swapped [7,8]
-Items compared: [8,9], => not swapped [8,9]
-Items compared: [9,10], => not swapped [9,10]
-Items compared: [10,11], => not swapped [10,11]
-Items compared: [11,12], => not swapped [11,12]
-Items compared: [12,13], => not swapped [12,13]
-Items compared: [13,14], => not swapped [13,14]
-Items compared: [14,15], => not swapped [14,15]
-Items compared: [15,15], => not swapped [15,15]
-
----Thinking ^_^ -----
-
-This is your newly sorted list!: 
-0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 15 
-There were 45 swaps performed in this bubble sort. 
-THere were 150 compares perfomred in this bubble sort. 
-This is the size we are working with: 16The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
-Items compared: [0, 0].
- => not swapped [0, 0].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
-Items compared: [1, 1].
- => not swapped [1, 1].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
-Items compared: [3, 3].
- => not swapped [3, 3].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
-Items compared: [4, 4].
- => not swapped [4, 4].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
-Items compared: [5, 5].
- => not swapped [5, 5].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
-Items compared: [6, 6].
- => not swapped [6, 6].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
-Items compared: [7, 7].
- => not swapped [7, 7].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
-Items compared: [8, 8].
- => not swapped [8, 8].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
-Items compared: [9, 9].
- => not swapped [9, 9].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
-Items compared: [10, 10].
- => not swapped [10, 10].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
-Items compared: [11, 11].
- => not swapped [11, 11].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [12, 12].
-Items compared: [12, 12].
-Items compared: [12, 12].
-Items compared: [12, 12].
- => not swapped [12, 12].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [13, 13].
-Items compared: [13, 13].
-Items compared: [13, 13].
- => not swapped [13, 13].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [14, 14].
-Items compared: [14, 14].
- => not swapped [14, 14].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [15, 15].
- => not swapped [15, 15].
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
- => not swapped [15, 15].
-
----Thinking ^_^ ---
-
-This is your newly sorted list!: 
-0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 15 
-There were 0 swaps performed in this selection sort. 
-THere were 120 compares performed in this selection sort. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [0, 1]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [1, 3]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [3, 4]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [4, 5]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [5, 6]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [6, 7]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [7, 8]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [8, 9]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [9, 10]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [10, 11]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [11, 12]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [12, 13]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [13, 14]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items compared: [14, 15]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
 Items compared: [15, 15]. 
-The current array: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
-Items shifted: [-309804928, 15]
+The current array: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 1, 0, ]
+Items shifted: [1, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items shifted: [6, 5]
+Items shifted: [5, 4]
+Items shifted: [4, 3]
+Items shifted: [3, 2]
+Items compared: [15, 15]. 
+The current array: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 0, ]
+Items shifted: [0, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items shifted: [6, 5]
+Items shifted: [5, 4]
+Items shifted: [4, 3]
+Items shifted: [3, 2]
+Items shifted: [2, 1]
+Items compared: [15, 15]. 
+The current array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, ]
+Items shifted: [2, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 9]
+Items shifted: [9, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items shifted: [6, 5]
+Items shifted: [5, 4]
+Items shifted: [4, 3]
+Items compared: [15, 15]. 
+
+---Thinking ^_^ -----
+
+This is your newly sorted list!: 
+1 2 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+There were 149 swaps performed in this insertion sort. 
+THere were 16 compares performed in this insertion sort. 
+Random value algorithms: 
+The current array: [15, 8, 1, 0, 3, 11, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [8, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [15, 15, 1, 0, 3, 11, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [1, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 8]
+Items compared: [15, 15]. 
+The current array: [8, 15, 15, 0, 3, 11, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [0, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 8]
+Items shifted: [8, 1]
+Items compared: [15, 15]. 
+The current array: [1, 8, 15, 15, 3, 11, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [3, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 8]
+Items compared: [15, 15]. 
+The current array: [1, 3, 8, 15, 15, 11, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [11, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [1, 3, 8, 11, 15, 15, 12, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [12, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [1, 3, 8, 11, 12, 15, 15, 4, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [4, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 8]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 8, 11, 12, 15, 15, 6, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [6, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 8]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 6, 8, 11, 12, 15, 15, 13, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [13, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 6, 8, 11, 12, 13, 15, 15, 7, 14, 10, 5, 9, 15, ]
+Items shifted: [7, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 8]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 6, 7, 8, 11, 12, 13, 15, 15, 14, 10, 5, 9, 15, ]
+Items shifted: [14, 15]
+Items shifted: [15, 15]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 15, 10, 5, 9, 15, ]
+Items shifted: [10, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, 15, 5, 9, 15, ]
+Items shifted: [5, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items shifted: [10, 8]
+Items shifted: [8, 7]
+Items shifted: [7, 6]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 15, 9, 15, ]
+Items shifted: [9, 15]
+Items shifted: [15, 15]
+Items shifted: [15, 14]
+Items shifted: [14, 13]
+Items shifted: [13, 12]
+Items shifted: [12, 11]
+Items shifted: [11, 10]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 15, ]
+Items compared: [15, 15]. 
+The current array: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 15, ]
+Items shifted: [-853663296, 15]
+Items shifted: [15, 15]
 Items shifted: [15, 15]
 Items shifted: [15, 14]
 Items shifted: [14, 13]
@@ -1072,12 +338,11 @@ Items shifted: [5, 4]
 Items shifted: [4, 3]
 Items shifted: [3, 1]
 Items shifted: [1, 0]
-Items shifted: [0, 14]
 Items compared: [15, 15]. 
 
 ---Thinking ^_^ -----
 
 This is your newly sorted list!: 
-14 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 
-There were 17 swaps performed in this insertion sort. 
+0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 15 
+There were 76 swaps performed in this insertion sort. 
 THere were 16 compares performed in this insertion sort. 
